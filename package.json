@@ -1,9 +1,17 @@
 {
+  "name": "ts-jes-boilerplate",
+  "author": "Luke Zigler <luke.zigler98@gmail.com>",
+  "description": "Simple boilerplate application for implementing typescript with jest config for code katas",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "jest --coverage"
+  },
   "dependencies": {
     "typescript": "^5.8.3"
   },
   "devDependencies": {
     "jest": "^29.7.0",
-    "ts-jest": "^29.3.2"
+    "ts-jest": "^29.3.2",
+    "ts-node": "^10.9.2"
   }
 }
