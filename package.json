@@ -3,7 +3,9 @@
   "author": "Luke Zigler <luke.zigler98@gmail.com>",
   "description": "Simple boilerplate application for implementing typescript with jest config for code katas",
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
     "test": "jest --coverage"
   },
   "dependencies": {
